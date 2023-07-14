@@ -11,14 +11,14 @@ import React from 'react'
  * }
  */
 
-interface Van {
-    id: string; 
-    name: string; 
-    price: number; 
-    description: string; 
-    imageUrl: string; 
-    type: string;
-}
+// interface Van {
+//     id: string; 
+//     name: string; 
+//     price: number; 
+//     description: string; 
+//     imageUrl: string; 
+//     type: string;
+// }
 
 export default function Vans() {
     const [vans, setVans] = React.useState([])
